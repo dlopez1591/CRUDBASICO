@@ -30,3 +30,8 @@ tasks.named('bootBuildImage') {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+bootRun {
+
+	sourceResources sourceSets.main
+
+}
